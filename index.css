@@ -222,3 +222,78 @@ img.logo {
 .menu a {
     color: black;
 }
+
+@media only screen and (max-width:600px){
+    .menu, .hedaer-right{
+        display: none;
+    }
+    .content .about {
+        display: block;
+    }
+    .txt {
+        width: 100%;
+    }
+    .banner {
+        display: none;
+    }
+    .box_ratting {
+        margin: 20px;
+    }
+    .box {
+        width: 100%;
+        margin: 10px!important;
+    }    
+    .header_box ul {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 10px!important;
+    }
+    .header_box ul li.active {
+        margin: 0;
+        background-color: #01cab8;
+        color: white;
+        border-radius: 0px;
+    }
+    .header_box ul li {
+        list-style: none;
+        width: 39%;
+    }
+    li.last_item{
+        display: none;
+    }
+    .image_about img {
+        width: 95%;
+        margin-top: 0;
+        border-radius: 10px;
+        padding: 10px;
+        display: block;
+        border-radius: 20px;
+    }
+    p.description {
+        max-width: 97%;
+    }
+    .box_footer {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 20px;
+    }
+    .col_footer {
+        width: 47%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .col_footer ul {
+        gap: 5px;
+    }    
+    .col_footer ul {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .col_footer p{
+        overflow: hidden;
+    }
+
+}
