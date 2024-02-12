@@ -1,0 +1,224 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter",Arial,Helvetica,sans-serif;
+}
+header.header {
+    display: flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.logo img {
+    width: 200px;
+}
+.hedaer-left {
+    display: flex;
+    width: 75%;
+    align-items: center;
+}
+.menu > ul {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+}
+.menu > ul li {
+    list-style: none;
+}
+.menu > ul li a {
+    text-decoration: none;
+}
+.hedaer-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.icons ul {
+    display: flex;
+    gap: 15px;
+}
+.banner{
+    background-image: url('https://realortopediacto.com.br/wp-content/uploads/2021/09/hero_DrCV.jpg');
+    min-height: 300px;
+}
+.icons svg {
+    width: 23px;
+}
+.icons ul li {
+    list-style: none;
+}
+.button-hedaer .button {
+    text-align: center;
+    font-size: 16px;
+    background-color: #01cab8;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+}
+.button-hedaer svg {
+    width: 20px;
+    margin-right: 10px;
+}
+.content .about {
+    background-image: url(https://realortopediacto.com.br/wp-content/uploads/2021/09/background_07.jpg);
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.image_about img {
+    width: 500px;
+    margin-top: -100px;
+    border-radius: 10px;
+}
+p.description {
+    max-width: 85%;
+    font-size: 17px;
+    margin: 20px 0px;
+    line-height: 22px;
+}
+h2.title {
+    font-size: 40px;
+    margin: 0;
+}
+h4.subtitle {
+    font-size: 13px;
+    margin: 0;
+}
+p.ratting svg {
+    width: 30px;
+}
+p.ratting svg path {
+    fill: gold;
+    stroke: gold;
+}
+a.rait {
+    background-color: #ffffff00;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 90px;
+}
+a.rait svg {
+    width: 25px;
+}
+.txt {
+    width: 40%;
+    padding: 20px 10px;
+}
+.box {
+    width: 70%;
+    margin: 50px auto;
+}
+.header_box ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin: 0!important;
+    padding: 0;
+    gap: 30px;
+}
+.header_box ul li {
+    list-style: none;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    cursor: pointer;
+}
+.header_box ul li.active {
+    background-color: #01cab8;  
+    color: white;
+
+}
+.content_box_item.active {
+    padding: 40px 10px;
+    display: block;
+    background-color: #c8f5f8;
+    line-height: 25px;
+}
+.content_box_item {
+    display: none;
+    padding: 20px 10px;
+    background-color: #c8f5f8;
+}
+section.content_secondary {
+    margin-top: 4%;
+}
+.box_ratting {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 2%;
+    border-radius: 10px;
+}
+.header_content_ternary {
+    margin: 3%;
+}
+.box_ratting h3, h4, p {
+    margin: 5px 0px;
+}
+footer {
+    background-color: #daf9f6;
+    font-size: 14px;
+}
+.box_footer {
+    background-color: #daf9f6;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 15px;
+}
+.col_footer svg {
+    width: 25px;
+}
+.col_footer ul {
+    margin: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+.col_footer ul li {
+    list-style: none;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.col_footer {
+    width: 25%;
+    margin-bottom: 30px;
+}
+img.logo {
+    margin: 20px 0px;
+}
+.col_footer p {
+    margin: 10px 0px;
+}
+.col_footer h5 {
+    font-size: 15px;
+}
+.col_footer a {
+    text-decoration: none;
+    color: black;
+}
+.menu a {
+    color: black;
+}
